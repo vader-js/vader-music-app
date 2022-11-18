@@ -1,0 +1,141 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+    left: 0;
+    background-color: rgba(29, 28, 28, 0.15);  
+    backdrop-filter: blur(10px);
+  }
+.footerwrapper{
+    margin: 15px auto;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.audioparam{
+    flex: 1;
+    display: flex;
+}
+
+.songname{
+    color: white;
+    margin-left: 5px;
+}
+
+.audiofunctions{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.volumefunction{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+}
+.audioimage img{
+    width: 49px;
+    height: 49px;
+    border-radius: 14px;
+  }
+.topfunctions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topfunctions span{
+    color: white;
+}
+
+
+.topfunctions span:not(:last-child){
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.progresswrapper{
+    width: 749px;
+    height: 4px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.04);
+    margin-top: 20px;
+}
+
+.progressbar{
+    width: 50%;
+    height: 100%;
+    background-color: #FACD66;
+}
+
+
+.volumeicon{
+    color: white;
+   font-size: 24px;
+   width: 24px;
+   height: 24px;
+}
+
+.volumewrapper{
+    width: 160px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 42px;
+    margin-left: 10px;
+}
+
+.volumebar{
+    width: 30%;
+    height: 100%;
+    background-color: #FACD66;
+}
+
+  @media screen and (max-width: 480px) {
+    .footer{
+        height: 80px;
+        overflow-y: hidden;
+    }
+    .volumefunction{
+        display: none;
+    }
+    .bottomfunction{
+        display: none;
+    }
+    .footerwrapper{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+    .audioparam{
+        flex: 1;
+    }
+    .audiofunctions{
+        flex: 3;
+        justify-self: flex-end;
+    }
+    .repeat{
+        display: none;
+    }
+    .shuffle{
+        display: none !important;
+    }
+    .topfunctions{
+        justify-content: flex-end;
+    }
+
+    .topfunctions span:not(:last-child){
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+  }

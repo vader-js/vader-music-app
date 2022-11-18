@@ -1,0 +1,10 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+.imagetile img{
+    width: 63px;
+    height: 63px;
+    border-radius: 10px;
+}
+
