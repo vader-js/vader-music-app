@@ -12,7 +12,7 @@ A pictorial representation of my finished App:
 
 and why wouldnt it be mobile responsive,
 
-<img src="src/images/phoneViewUIHome.PNG" height="200">
+<img src="src/images/PhoneViewUIHome.PNG" height="200">
 <img src="src/images/phoneViewhamburgermenuUI.PNG" height="200">
 <img src="src/images/phoneViewPlaymusicUI.PNG" height="200">
 <img src="src/images/phoneviewscrolUI.PNG" height="200">
