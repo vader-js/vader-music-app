@@ -7,8 +7,8 @@ This  project was born as a result of my love for music. i was scrolling through
 Anyways, this design is not a full blown application as it has no BackEnd to it, hence i have only four songs stored on the app and it can be played, paused, skipped, returned, repeated etc. 
 A pictorial representation of my finished App:
 
-![Desktop View](/src/images/MusicUI.png)
-![Desktop View2](/src/images/PlayMusicDesktopUI.png)
+![Desktop View](/src/images/musicUI.png)
+![Desktop View2](/src/images/PlaymusicDesktopUI.png)
 
 and why wouldnt it be mobile responsive,
 
@@ -25,7 +25,7 @@ in order to acess the playlist, click on any of the topchats menu
 
 it leads to the the next page containing the songs and then you can go ahead and have a melodious experience!
 
-![Desktop View2](/src/images/PlayMusicDesktopUI.png)
+![Desktop View2](/src/images/PlaymusicDesktopUI.png)
 
 # Hosting link
 This project is Hosted on Netlify, and can be visited here: [Vader's music App](https://vader-music-app.netlify.app/ "may the force be with you!")
